@@ -1,0 +1,254 @@
+* {
+    box-sizing: border-box;
+}
+
+
+body {
+
+    margin: 0;
+
+    font-family:
+        Arial,
+        Helvetica,
+        sans-serif;
+
+    background: #f5f5f5;
+
+    color: #222;
+}
+
+
+.container {
+
+    width: 90%;
+
+    max-width: 800px;
+
+    margin: 40px auto;
+
+    text-align: center;
+}
+
+
+h1 {
+
+    margin-bottom: 10px;
+
+}
+
+
+.description {
+
+    color: #666;
+
+    margin-bottom: 30px;
+
+}
+
+
+/* ========================= */
+/* STATUS */
+/* ========================= */
+
+.status {
+
+    padding: 12px;
+
+    border-radius: 10px;
+
+    background: white;
+
+    margin-bottom: 20px;
+
+    box-shadow:
+        0 2px 8px rgba(
+            0,
+            0,
+            0,
+            0.08
+        );
+}
+
+
+/* ========================= */
+/* COMMAND */
+/* ========================= */
+
+.command-box {
+
+    background: white;
+
+    padding: 30px;
+
+    border-radius: 15px;
+
+    margin-bottom: 20px;
+
+    box-shadow:
+        0 2px 8px rgba(
+            0,
+            0,
+            0,
+            0.08
+        );
+}
+
+
+.command-title {
+
+    font-size: 16px;
+
+    color: #777;
+
+}
+
+
+.command {
+
+    font-size: 36px;
+
+    font-weight: bold;
+
+    margin-top: 10px;
+
+}
+
+
+.confidence {
+
+    margin-top: 10px;
+
+    color: #777;
+
+}
+
+
+/* ========================= */
+/* BUTTON */
+/* ========================= */
+
+button {
+
+    border: none;
+
+    border-radius: 10px;
+
+    padding: 12px 18px;
+
+    margin: 5px;
+
+    cursor: pointer;
+
+    font-size: 15px;
+
+    background: #222;
+
+    color: white;
+}
+
+
+button:hover {
+
+    opacity: 0.8;
+
+}
+
+
+.mic-button {
+
+    font-size: 18px;
+
+    padding: 15px 25px;
+
+    margin-bottom: 30px;
+
+}
+
+
+.mic-button.active {
+
+    background: #b00020;
+
+}
+
+
+/* ========================= */
+/* PLAYER */
+/* ========================= */
+
+.player {
+
+    background: white;
+
+    padding: 25px;
+
+    border-radius: 15px;
+
+    margin-bottom: 20px;
+
+    box-shadow:
+        0 2px 8px rgba(
+            0,
+            0,
+            0,
+            0.08
+        );
+}
+
+
+.now-playing {
+
+    font-weight: bold;
+
+    margin-bottom: 15px;
+}
+
+
+audio {
+
+    width: 100%;
+
+    margin-bottom: 15px;
+}
+
+
+/* ========================= */
+/* PLAYLIST */
+/* ========================= */
+
+.playlist {
+
+    background: white;
+
+    padding: 25px;
+
+    border-radius: 15px;
+
+    box-shadow:
+        0 2px 8px rgba(
+            0,
+            0,
+            0,
+            0.08
+        );
+}
+
+
+.song-item {
+
+    padding: 12px;
+
+    margin: 5px 0;
+
+    border-radius: 8px;
+
+    cursor: pointer;
+
+    background: #eee;
+}
+
+
+.song-item:hover {
+
+    background: #ddd;
+}
