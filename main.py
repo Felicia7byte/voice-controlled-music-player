@@ -35,7 +35,8 @@ CLASS_NAMES = [
     "Play",
     "Pause",
     "Next_track",
-    "Previous_track"
+    "Previous_track",
+    "Unknown"
 ]
 
 
@@ -52,7 +53,7 @@ print("Using device:", device)
 # LOAD MODEL
 # ============================================================
 
-model = DSCNN(num_classes=4)
+model = DSCNN(num_classes=5)
 
 checkpoint = torch.load(
     MODEL_PATH,
