@@ -490,6 +490,8 @@ function executeCommand(
 
             break;
 
+        default:
+            break;
     }
 }
 
