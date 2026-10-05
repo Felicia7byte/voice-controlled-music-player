@@ -52,7 +52,7 @@ class DepthwiseSeparableConv(nn.Module):
 
 class DSCNN(nn.Module):
 
-    def __init__(self, num_classes=4):
+    def __init__(self, num_classes=5):
         super().__init__()
 
         # Initial convolution
